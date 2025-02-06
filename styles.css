@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(0, 64, 128, 0.8);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.intro {
+    margin-bottom: 2rem;
+}
+
+.intro h2 {
+    font-size: 1.8rem;
+    color: #004080;
+}
+
+.intro p {
+    font-size: 1.2rem;
+}
+
+.teams {
+    margin-bottom: 2rem;
+}
+
+.teams h2 {
+    font-size: 1.4rem;
+    color: #004080;
+}
+
+.team-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.team-list p {
+    font-size: 1rem;
+    margin: 0.2rem 0;
+}
+
+
+.facebook-page {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: rgba(0, 64, 128, 0.8);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .intro h2 {
+        font-size: 1.5rem;
+    }
+
+    .intro p {
+        font-size: 1rem;
+    }
+
+    .teams h2 {
+        font-size: 1.5rem;
+    }
+
+    .team-list {
+        grid-template-columns: 1fr;
+    }
+
+    .team-list p {
+        font-size: 1rem;
+    }
+}
